@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000008
+}
+
+h1,
+h2,
+h3,
+b,
+li,
+ul,
+ol,
+strong {
+  color: white !important;
+
+}
+
+.border-gradient {
+  position: relative;
+  background-color: rgba(24, 17, 17, 0.72);
+  padding: 5px 10px;
+}
+
+.border-gradient::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 3px;
+  background: linear-gradient(180deg, #29A1C7, #B85CA7);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#ffffff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.aianswer {
+  border: 2px solid #A3E8EB;
+  background: linear-gradient(180deg, #1A1C22 0%, #1E1822 70.5%, #1B3463 100%);
+}
+
+.circleai {
+  background: linear-gradient(180deg, #64DFE7 0%, #0E757E 100%);
+}
+
+.userchat {
+  border: 2px solid #8dbfe9;
+  background: linear-gradient(180deg, #06282F 0%, #127E95 100%);
+}
+
+/* LoadingAnimation.css */
+
+.loading-container {
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.letter {
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* LoadingAnimation.css */
+
+.loading-container {
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.letter {
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('./fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Light'), url('./fonts/MyriadPro-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold'), url('./fonts/MYRIADPRO-BOLD.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Conthrax';
+  src: url("./fonts/conthrax-sb.otf") format("opentype");
+}
+
+.circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: bounce 4s infinite ease-in-out;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+}

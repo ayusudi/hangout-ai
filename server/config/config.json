@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "YOUR_USERNAME",
+    "password": "YOUR_PASSWORD",
+    "database": "YOUR_DM",
+    "host": "CHANGETHISGATEWAY.prod.aws.tidbcloud.com",
+    "port": "YOUR_PORT",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "minVersion": "YOUR_MINVERSIION",
+        "rejectUnauthorized": true,
+        "ca": null
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "YOUR_USERNAME",
+    "password": "YOUR_PASSWORD",
+    "database": "YOUR_DM",
+    "host": "CHANGETHISGATEWAY.prod.aws.tidbcloud.com",
+    "port": "YOUR_PORT",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "minVersion": "YOUR_MINVERSIION",
+        "rejectUnauthorized": true,
+        "ca": null
+      }
+    }
+  }
+}
