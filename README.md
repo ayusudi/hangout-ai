@@ -23,6 +23,11 @@ Hangout AI uses a Large Language Model (LLM) to create custom travel itineraries
 - [Contribution](#contribution)
 - [License](#license)
 
+---
+
+<img src="./hangoutai.png" height="300px"/>
+
+
 ## Overview
 This repository contains three main components for the Hangout AI project, which is designed to generate personalized travel itineraries for users. The components are divided into three folders: `llm`, `server`, and `client`.
 
@@ -51,6 +56,10 @@ This repository contains three main components for the Hangout AI project, which
 - **Authentication** : OAuth 0.2 Google APIs and JWT 
 - **Deployment** : Vercel, Heroku, Personal VPS
 - **Web Analytic** : Firebase Google Analytic
+
+![image](./llm.png)
+![image](./app.png)
+
 
 ## Architecture
 
