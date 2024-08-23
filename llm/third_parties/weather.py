@@ -30,7 +30,7 @@ def get_weather_data(
     
 def get_weather_calculation(weather_data_list):
     if not weather_data_list:
-        return 0
+        return None
 
     avg_temp = sum(item['temp'] for item in weather_data_list) / len(weather_data_list)
     avg_feelslike = sum(item['feelslike'] for item in weather_data_list) / len(weather_data_list)
@@ -51,6 +51,9 @@ def get_weather_calculation(weather_data_list):
     }
 
 def summarize_weather_data(calculation):
+    if not calculation:
+        return None
+    
     weather_summary = f"Average temperature: {calculation['avg_temp']:.1f}°F (feels like {calculation['avg_feelslike']:.1f}°F). "
     weather_summary += f"Average precipitation probability: {calculation['avg_precipprob']:.1f}%, with a maximum of {calculation['max_precipprob']}%. "
     weather_summary += f"Predominant conditions: {calculation['predominant_conditions']}. "

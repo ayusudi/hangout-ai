@@ -15,7 +15,7 @@ from llama_index.core.vector_stores import (
 from datetime import datetime
 from enums.country import Country
 from models.chat_message import ChatMessages
-from tp.weather import (
+from third_parties.weather import (
     get_weather_data, 
     get_weather_calculation,
     summarize_weather_data,

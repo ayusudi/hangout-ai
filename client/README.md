@@ -23,12 +23,14 @@ Table of contents
 > We set the default location to Jakarta, but if the user changes it to Singapore or Kuala Lumpur, the city illustration will change as well.
 <br/>
 <br/>
+
 ![loading](./screenshot/loading.png)
 ![chat-response](./screenshot/chat.png)
 ![chat-before-preview](./screenshot/chat-beforepreview.png)
 > Users can continue chatting with the AI, for example, by asking for a table. We have a preview button to show an image of the mentioned location or open a new tab to view the location on Google for more details and reviews.
 <br/>
 <br/>
+
 ![chat-preview](./screenshot/chatpreview.png)
 
 ## List Tech Stack

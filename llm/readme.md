@@ -54,8 +54,8 @@ The system architecture is composed of several key components:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/hangout-itinerary-generator.git
-    cd hangout-itinerary-generator
+    git clone https://github.com/luthfiarifin/hangout-llm.git
+    cd hangout-llm
     ```
 
 2. Create and activate a virtual environment:

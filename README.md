@@ -4,6 +4,9 @@
 
 Hangout AI uses a Large Language Model (LLM) to create custom travel itineraries based on user input such as location, date, and weather conditions. The project integrates several software components to deliver a comprehensive and dynamic itinerary generation service.
 
+Our target audience is the general public, including travelers, tourists, and adventure seekers who want a personalized and seamless travel planning experience.
+
+[Explore Hangout AI](https://hangout-ai.vercel.app)
 
 ## Table of Contents
 
@@ -226,12 +229,15 @@ Hangout AI is a web application that can be opened in a browser. It is designed 
 > We set the default location to Jakarta, but if the user changes it to Singapore or Kuala Lumpur, the city illustration will change as well.
 <br/>
 <br/>
+
 ![loading](./client/screenshot/loading.png)
 ![chat-response](./client/screenshot/chat.png)
 ![chat-before-preview](./client/screenshot/chat-beforepreview.png)
+
 > Users can continue chatting with the AI, for example, by asking for a table. We have a preview button to show an image of the mentioned location or open a new tab to view the location on Google for more details and reviews.
 <br/>
 <br/>
+
 ![chat-preview](./client/screenshot/chatpreview.png)
 
 ## Contribution
