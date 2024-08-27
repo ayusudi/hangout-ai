@@ -60,7 +60,7 @@ This repository contains three main components for the Hangout AI project, which
 - **Deployment** : Vercel, Heroku, Personal VPS
 - **Web Analytic** : Firebase Google Analytic
 
-![image](./llm.png)
+![image](./rag.png)
 ![image](./app.png)
 
 
